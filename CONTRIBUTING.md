@@ -9,35 +9,45 @@ Definizione del flusso di lavoro obbligatorio per tutti i membri del team.
 ## ***1. Sync dello spazio di lavoro***
 **Prima di editare il codice, assicurarsi di avere l'ultima versione disponibile:**
 
-    ```bash
-
-    git checkout main
-    git pull origin main
+```bash
+git checkout main
+git pull origin main
+```
 
 ## ***2. Creazione Branch di Lavoro***
 **Per ogni Task e/o Sub-Task assegnato (a meno di blocchi contigui e correlati), lavorare su un branch dedicato.**
 
-    ```bash
-
-    git switch -c nomeBranch
-
+```bash
+git switch -c nomeBranch
+```
 
 ## ***3. Review e Pull Request***
-**Prima di fare il push di qualche modifica effettuare questi passaggi:**
+**Prima di inviare le modifiche, posizionarsi nella cartella principale del progetto e poi fare:**
 
-1. Muoversi nella cartella dove si desidera effettuare il push e poi:
+1. Prepara i file e crea il commit, inserendo il codice del ticket di Jira:
 
+    Per aggiungere tutte le modifiche
     ```bash
-
     git add .
-    //oppure
+    ```
+        
+    Oppure per aggiungere un file specifico
+    ```bash
     git add nomeFile.nomeEstensione
-
+    ```
+    Dopodichè
+    ```bash
     git commit -m "CODICE_TASKJIRA Commento"
-    //esempio: 
-    "git commit -m "ISFARIS-3 Aggiunto obiettivi del sistema"
-    
+    ```
+    <mark>Esempio: 
+    ```bash
+    git commit -m "ISFARIS-3 Aggiunto obiettivi del sistema"
+    ```
+        
+    Invio al branch su github
+    ```bash
     git push -u origin nomeBranch
+    ```
 
 2. Entrare poi sulla repository di github, aprire una pull request e assegnare un "Reviewer" (Andrea / Davide) diverso dall'autore.
 3. Entrare sullo spazio di progetto di Jira e cambiare lo stato dei task/sottotask in "Revisione".
@@ -45,15 +55,20 @@ Definizione del flusso di lavoro obbligatorio per tutti i membri del team.
 
 ## ***4. Altri comandi utili per gestire i branch***
 
-    ```bash
+Muoversi tra i branch
+```bash
+git switch nomeBranch
+```
 
-    #Muoversi tra i branch
+per annullare le modifiche al file e riportarlo all'ultimo commit
+```bash
+git restore nomeFile.estensione
+```
 
-    git switch nomeBranch
-    
-    git restore . //per ripristinare tutti i file modificati nella cartella corrente
-    git restore nomeFile.estensione //per annullare le modifiche al file e riportarlo all'ultimo commit
-
+per ripristinare tutti i file modificati nella cartella corrente
+```bash
+git restore . 
+```
 ----------------------------------------------------------------------------------------------------
 
 ***Nota a margine***: 
