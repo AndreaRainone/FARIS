@@ -10,7 +10,7 @@ Definizione del flusso di lavoro obbligatorio per tutti i membri del team.
 **Prima di editare il codice, assicurarsi di avere l'ultima versione disponibile:**
 
 ```bash
-git checkout main
+git switch main
 git pull origin main
 ```
 
@@ -43,15 +43,27 @@ git switch -c nomeBranch
     ```bash
     git commit -m "ISFARIS-3 Aggiunto obiettivi del sistema"
     ```
+    <mark>NOTA: se lavorate su più sottotask, per migliorare la tracciabilità, il messaggio del commit deve contenere tutti i codici dei sottotask di cui state facendo la pull request.
+    ```bash
+    git commit -m "ISFARIS-3 ISFARIS-4 ISFARIS-5 Aggiunto obiettivi del sistema"
+    ```
+    <mark>OPPURE un commit per ogni sottotask
+    ```bash
+    git commit -m "ISFARIS-3 Aggiunta sezione 1.1"
+    git commit -m "ISFARIS-4 Aggiunta sezione 1.2"
+    git commit -m "ISFARIS-5 Aggiunta sezione 1.3"
+    ```
         
     Invio al branch su github
     ```bash
     git push -u origin nomeBranch
     ```
 
-2. Entrare poi sulla repository di github, aprire una pull request e assegnare un "Reviewer" (Andrea / Davide) diverso dall'autore.
-3. Entrare sullo spazio di progetto di Jira e cambiare lo stato dei task/sottotask in "Revisione".
-4. Scrivere nella sezione "Comunicazioni" di Discord, taggando il revisore e avvertendolo di revisionare quel task
+2. Entrare poi sulla repository di github, aprire una pull request e assegnare un "Reviewer" (Andrea / Davide) diverso dall'autore. Il titolo deve matchare con i codici di Jira dei vari subtask, simile a quello del commit con messaggio unico (ndr).
+
+<mark>E' importante scrivere un messaggio di descrizione nella pull request</mark>
+
+3. Scrivere nella sezione "Comunicazioni" di Discord, taggando il revisore e avvertendolo di revisionare quel task
 
 ## ***4. Altri comandi utili per gestire i branch***
 
