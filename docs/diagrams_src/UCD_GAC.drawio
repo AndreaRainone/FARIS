@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="-HsM108zJE_ITgGpRq9R">
+    <mxGraphModel dx="1248" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Upsyas_cooHybM9tBP5O-6" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=640;height=15;fillColor=none;" value="Gestione Assistente Conversazionale" vertex="1">
+          <mxGeometry height="560" width="640" x="272" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-13" edge="1" parent="1" source="Upsyas_cooHybM9tBP5O-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Upsyas_cooHybM9tBP5O-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-17" edge="1" parent="1" source="Upsyas_cooHybM9tBP5O-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Upsyas_cooHybM9tBP5O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-8" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Utente Registrato" vertex="1">
+          <mxGeometry height="170" width="85" x="118" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="LLM API" vertex="1">
+          <mxGeometry height="170" width="85" x="966" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-10" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;" value="Interrogazione&lt;br&gt;Assistente Conversazionale" vertex="1">
+          <mxGeometry height="130" width="220" x="371" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-16" edge="1" parent="1" source="Upsyas_cooHybM9tBP5O-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Upsyas_cooHybM9tBP5O-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-11" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;" value="Generazione Sintesi" vertex="1">
+          <mxGeometry height="130" width="220" x="626" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-12" parent="1" style="ellipse;html=1;whiteSpace=wrap;fillColor=none;" value="Selezione Servizio&lt;br&gt;Assistente Conversazionale" vertex="1">
+          <mxGeometry height="130" width="220" x="371" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="Upsyas_cooHybM9tBP5O-15" edge="1" parent="1" source="Upsyas_cooHybM9tBP5O-10" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="Upsyas_cooHybM9tBP5O-11" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="700" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
