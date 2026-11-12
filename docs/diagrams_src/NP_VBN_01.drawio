@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="BVun2yJYsVpVkl9u5-63">
+    <mxGraphModel dx="1187" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-15" parent="1" style="ellipse;html=1;shape=startState;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="419" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-16" edge="1" parent="1" source="VWJ80d-Z_IN2FuExVhgh-15" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;rounded=0;defaultLabelBackgroundColor=gap;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="434" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-17" edge="1" parent="1" source="VWJ80d-Z_IN2FuExVhgh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;startArrow=open;startFill=0;endArrow=open;endFill=0;" target="VWJ80d-Z_IN2FuExVhgh-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" value="Bacheca" vertex="1">
+          <mxGeometry height="40" width="120" x="373" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" value="Notizia" vertex="1">
+          <mxGeometry height="40" width="120" x="373" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" value="Assistente conversazionale" vertex="1">
+          <mxGeometry height="40" width="120" x="580" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-21" edge="1" parent="1" source="VWJ80d-Z_IN2FuExVhgh-20" style="endArrow=open;startArrow=open;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startFill=0;endFill=0;" target="VWJ80d-Z_IN2FuExVhgh-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-22" edge="1" parent="1" source="VWJ80d-Z_IN2FuExVhgh-20" style="endArrow=open;startArrow=open;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startFill=0;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="580" y="129.5" as="sourcePoint" />
+            <mxPoint x="493" y="129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-23" edge="1" parent="1" source="VWJ80d-Z_IN2FuExVhgh-18" style="endArrow=open;startArrow=open;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;startFill=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="VWJ80d-Z_IN2FuExVhgh-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="120" as="sourcePoint" />
+            <mxPoint x="236" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" value="Area Utente" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" value="Gestione Sorgenti" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VWJ80d-Z_IN2FuExVhgh-26" edge="1" parent="1" source="VWJ80d-Z_IN2FuExVhgh-25" style="endArrow=open;startArrow=open;html=1;rounded=0;defaultLabelBackgroundColor=page;labelPadding=0 4;endFill=0;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="315" y="60" as="sourcePoint" />
+            <mxPoint x="370" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
