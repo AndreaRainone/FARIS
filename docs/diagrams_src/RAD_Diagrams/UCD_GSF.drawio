@@ -19,7 +19,7 @@
         <mxCell id="pUKZL1vicLZ-x6BSkUy6-6" edge="1" parent="1" source="OI1LOPhb_-fUCnqmR2vI-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="OI1LOPhb_-fUCnqmR2vI-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OI1LOPhb_-fUCnqmR2vI-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Lettore" vertex="1">
+        <mxCell id="OI1LOPhb_-fUCnqmR2vI-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Utente Registrato" vertex="1">
           <mxGeometry height="130" width="65" x="190" y="235" as="geometry" />
         </mxCell>
         <mxCell id="OI1LOPhb_-fUCnqmR2vI-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;labelPerimeter=1;" value="Sorgenti RSS" vertex="1">
