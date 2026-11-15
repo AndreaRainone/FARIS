@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Pagina-1" id="L7MgX2-WmLTHvljOtFQy">
-    <mxGraphModel dx="858" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="772" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -70,7 +70,7 @@
             <mxPoint x="690" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Lt-pfklTX2Zr0YMWJOI-6" edge="1" parent="1" source="9Lt-pfklTX2Zr0YMWJOI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=-0.001;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;verticalAlign=middle;labelPosition=left;verticalLabelPosition=middle;align=right;" target="9Lt-pfklTX2Zr0YMWJOI-5" value="&lt;b&gt;L&#39;utente clicca sul&amp;nbsp;&lt;br&gt;tastoper registrarsi&lt;/b&gt;">
+        <mxCell id="9Lt-pfklTX2Zr0YMWJOI-6" edge="1" parent="1" source="9Lt-pfklTX2Zr0YMWJOI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.418;entryY=-0.001;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;verticalAlign=middle;labelPosition=left;verticalLabelPosition=middle;align=right;" target="9Lt-pfklTX2Zr0YMWJOI-5" value="&lt;b&gt;L&#39;utente clicca sul&amp;nbsp;&lt;br&gt;tasto per registrarsi&lt;/b&gt;">
           <mxGeometry relative="1" x="0.1903" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -80,7 +80,7 @@
             <mxPoint x="800" y="135" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Lt-pfklTX2Zr0YMWJOI-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;roundedPerimeter=1;arcSize=27;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;In Attesa&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Entry / viene mostrata la pagina di accesso&lt;/p&gt;" vertex="1">
+        <mxCell id="9Lt-pfklTX2Zr0YMWJOI-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;roundedPerimeter=1;arcSize=27;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Non Registrato&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Entry / viene mostrata la pagina di accesso&lt;/p&gt;" vertex="1">
           <mxGeometry height="90" width="210" x="440" y="90" as="geometry" />
         </mxCell>
         <mxCell id="9Lt-pfklTX2Zr0YMWJOI-10" edge="1" parent="1" source="9Lt-pfklTX2Zr0YMWJOI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=2;" target="JELNiTrvGMFQNi1yj_xz-10" value="&lt;b&gt;L&#39;utente clicca&lt;br&gt;Indietro&lt;/b&gt;">
@@ -167,7 +167,7 @@
         <mxCell id="9Lt-pfklTX2Zr0YMWJOI-35" parent="1" style="verticalAlign=middle;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;roundedPerimeter=1;arcSize=27;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Errore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Viene mostrato l&#39;avviso&lt;/p&gt;" vertex="1">
           <mxGeometry height="70" width="130" x="252" y="1120" as="geometry" />
         </mxCell>
-        <mxCell id="WdDPdVkki0Y7Bv4bRduh-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;roundedPerimeter=1;arcSize=27;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Visualizzazione&lt;br&gt;Bacheca&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Entry / viene mostrata la bacheca notizie filtrata&lt;/p&gt;" vertex="1">
+        <mxCell id="WdDPdVkki0Y7Bv4bRduh-1" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;rounded=1;roundedPerimeter=1;arcSize=27;" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; text-decoration: underline;&quot;&gt;&lt;b&gt;Registrato&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Entry / viene mostrata la bacheca notizie filtrata&lt;/p&gt;" vertex="1">
           <mxGeometry height="90" width="150" x="467" y="1260" as="geometry" />
         </mxCell>
         <mxCell id="WdDPdVkki0Y7Bv4bRduh-2" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
